@@ -2,9 +2,8 @@
 module.exports = {
   // Hugo specific content paths
   content: [
-    "../../layouts/**/*.html",
-    "../../content/**/*.{html,md}",
-    "../layouts/**/*.html"
+    "./themes/eai/**/*.{html,js,md}",
+    "./content/**/*.{html,md}"
   ],
   theme: {
     extend: {

@@ -17,9 +17,15 @@
       </div>                
   </div>
 </section>
+
+<section>
+
   {{ .Content }}
   {{ range site.RegularPages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
   {{ end }}
+  
+</section>
+
 {{ end }}

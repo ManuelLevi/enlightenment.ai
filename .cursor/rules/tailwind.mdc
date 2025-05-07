@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Tailwind cannot be compiled manually.
+Tailwind can only be compiled by Hugo.
+Tailwind PostCSS plugin is @tailwindcss/postcss, NOT @tailwindcss only.
