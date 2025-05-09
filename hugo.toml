@@ -6,17 +6,21 @@ theme = 'eai'
 # Main menu configuration
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Trusted By"
+    url = "#trustedby"
     weight = 1
   [[menu.main]]
     name = "Insights"
-    url = "/insights/"
+    url = "#insights"
     weight = 2
   [[menu.main]]
     name = "Hire Us"
-    url = "/hire-us/"
+    url = "#hire-us"
     weight = 3
+
+# Links
+[params]
+  consultation_link = "https://cal.com/datastrategy"
 
 
 [build]

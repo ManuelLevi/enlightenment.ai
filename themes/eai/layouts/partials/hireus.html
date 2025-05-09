@@ -1,0 +1,54 @@
+<section id="hire-us" class="bg-white dark:bg-black">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Hire Us</h2>
+            <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">We only work with teams that move fast and value clarity.</p>
+        </div> 
+        <div class="grid gap-8 lg:grid-cols-2">
+            <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-stone-950 dark:border-gray-700">
+                <div class="flex items-center space-x-4 mb-2">
+                    <img class="w-7 h-7 rounded-full" src="/companies/upwork.svg" alt="{{ with .Params.author }}{{ . }}{{ else }}Author{{ end }} avatar" />
+                    <h2 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Upwork</a></h2>
+                </div>
+                <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Hire us through Upwork if you prefer platform-based contracts and protections. Public reviews available.</p>
+                <div class="flex flex-col space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <span class="font-medium dark:text-white">
+                            Ideal for short engagements or first-time collaborations.
+                        </span>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <a href="{{ site.Params.upwork_link | default "#" }}" 
+                           class="inline-flex items-center justify-center w-48 px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-lg hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-300 dark:focus:ring-emerald-900 transition-all duration-200">
+                            → Hire via Upwork
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-stone-950 dark:border-gray-700">
+                <div class="flex items-center space-x-4 mb-2">
+                    <img class="w-7 h-7 rounded-full" src="/companies/stripe.svg" />
+                    <h2 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Stripe</a></h2>
+                </div>
+                
+                <p class="mb-5 font-light text-gray-500 dark:text-gray-400">Work with us directly through a monthly retainer. No fluff, no middlemen. Cancel anytime.</p>
+                <div class="flex flex-col space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <span class="font-medium dark:text-white">
+                            Ideal for medium to long-term engagements.
+                        </span>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <div class="relative">
+                            <a href="{{ site.Params.subscription_link | default "#" }}" 
+                               class="inline-flex items-center justify-center w-48 px-4 py-2 text-sm font-medium text-white bg-gray-400 rounded-lg cursor-not-allowed opacity-75 transition-all duration-200">
+                                → Start Subscription
+                            </a>
+                        </div>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Due to high demand, we're currently at capacity for new subscriptions.</p>
+                    </div>
+                </div>
+            </article> 
+        </div>  
+    </div>
+  </section>

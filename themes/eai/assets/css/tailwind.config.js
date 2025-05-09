@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         'sans': ['Poppins', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'], // if you want to use it as a specific class
-      },
+      }
     },
   },
   plugins: [],
