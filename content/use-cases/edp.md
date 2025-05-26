@@ -1,12 +1,12 @@
 ---
 title: "Computer Vision for Electric Counters"
-company: "EDP"
+company: "Energias de Portugal (EDP)"
 company_description: "Portugal's largest energy company and a global leader in renewable energy."
-company_type: "Utility Company"
-logo: "/images/trusted/edp.png"
+company_type: "Energy"
+logo: "/images/trusted/edp.svg"
 link: "https://edp.pt"
-weight: 2
 year: 2019
+weight: 4
 ---
 
 ## The Challenge

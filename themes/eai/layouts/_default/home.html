@@ -2,27 +2,45 @@
 <section class="bg-white dark:bg-black">
   <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-7">
-          <h1 class="max-w-2xl mb-4 text-4xl font-poppins tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Data Strategy</h1>
-          <p class="max-w-2xl mb-6 font-poppins text-neutral-500 lg:mb-8 md:text-lg lg:text-xl dark:text-neutral-400">Impactful AI, not noise.</p>
-          <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-              Learn More
-              <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-          </a>
-          <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-neutral-900 border border-neutral-300 rounded-lg hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-100 dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700 dark:focus:ring-neutral-800">
-              Hire Us
-          </a> 
+          <h1 class="max-w-2xl mb-4 text-4xl font-poppins tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Compounding Leverage<br>With Data and AI.</h1>
+          <p class="max-w-2xl my-3 font-poppins text-neutral-500 lg:my-4 text-xs md:text-xs lg:text-xs dark:text-white leading-relaxed">
+            We build AI and data strategy systems that create leverage,<br>eliminate waste, and move the needle — <span class="italic font-bold">fast</span>.
+          </p>
+          <div class="flex gap-4">
+            <a href="https://cal.com/datastrategy" class="bg-gray-200 dark:bg-gray-800 inline-flex items-center justify-center px-5 py-3 text-xs font-medium text-center dark:text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Get an Estimate
+                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-xs font-medium text-center text-neutral-900 border border-neutral-300 rounded-lg hover:bg-neutral-100 focus:ring-4 focus:ring-neutral-100 dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700 dark:focus:ring-neutral-800">
+                Hire Us
+            </a>
+          </div>
       </div>
-      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="mockup">
-      </div>                
+      <div class="mt-6 lg:col-span-5 flex flex-col justify-center h-full lg:items-center">
+        <div class="space-y-6">
+            <div class="font-poppins text-neutral-700 text-sm dark:text-white">
+              <b class="bg-rose-700 text-white dark:bg-blue-900">Clarity Over Chaos:</b> We show you what matters so you can ignore what doesn't.
+            </div>
+            <div class="font-poppins text-neutral-700 text-sm dark:text-white">
+              <b class="bg-rose-700 text-white dark:bg-blue-900">Decisions, Not Dashboards:</b> We build systems that drive action, not just pretty charts.
+            </div>
+            <div class="font-poppins text-neutral-700 text-sm dark:text-white">
+              <b class="bg-rose-700 text-white dark:bg-blue-900">Built for Outcomes:</b> We reduce waste, risk, and missed revenue — not just noise.
+            </div>
+            <div class="font-poppins text-neutral-700 text-sm dark:text-white">
+              <b class="bg-rose-700 text-white dark:bg-blue-900">Leverage That Compounds:</b> Companies with data and AI don't grow linearly. Every insight becomes fuel for the next.
+            </div>
+        </div>
+      </div>
   </div>
 </section>
 
+{{ partial "trustedby_minimal.html" . }}
 
-{{ partial "insightlist.html" . }}
+{{ partial "rowCTA.html" . }}
 
 {{ partial "hireus.html" . }}
 
-{{ partial "trustedby.html" . }}
+<!--{{ partial "insightlist.html" . }}-->
 
 {{ end }}

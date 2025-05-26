@@ -1,9 +1,9 @@
 ---
-title: "AI Models for Urban Analytics"
-company: "SMART & Singaporean Government"
+title: "Demand Prediction for Public and Private Transportation"
+company: "Singapore-MIT Alliance for Research and Technology (SMART)"
 company_type: "Government"
-company_description: "SMART is the Singapore-MIT Alliance for Research and Technology"
-logo: "/images/trusted/mit-smart.png"
+company_description: "Together with the Land Transport Authority and Comfort Taxi Company"
+logo: "/images/trusted/smart-logo.png"
 link: "https://smart.mit.edu"
 year: 2015
 weight: 2

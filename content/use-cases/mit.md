@@ -1,10 +1,10 @@
 ---
 title: "Air Quality Prediction using Active Learning"
 year: 2015
-company: "MIT"
-company_type: "Research & Development"
+company: "The Massachusetts Institute of Technology (MIT)"
+company_type: "R&D"
 company_description: "World-leading research university in science and technology."
-logo: "/images/trusted/company1.png"
+logo: "/images/trusted/MIT_logo.svg"
 link: "https://mit.edu"
 weight: 1
 ---

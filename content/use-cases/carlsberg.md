@@ -1,12 +1,12 @@
 ---
 title: "Data Strategy for Product Innovation"
-company: "Carlsberg"
+company: "Carlsberg Group"
 company_description: "Large European brewing company, operating in over 125 markets"
 company_type: Retail
-logo: "/images/trusted/carlsberg.png"
+logo: "/images/trusted/carlsberg.svg"
 link: "https://carlsberg.com"
-weight: 2
 year: 2020
+weight: 3
 ---
 
 ## The Challenge

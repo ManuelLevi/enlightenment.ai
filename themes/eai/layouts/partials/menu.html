@@ -11,8 +11,8 @@ Renders a menu for the given menu ID.
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav class="bg-white border-gray-200 dark:bg-black">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-4">
+  <nav class="bg-white border-gray-200 dark:bg-black p-6">
+    <div class="flex flex-wrap items-center justify-between mx-auto">
       <a href="{{ site.Home.RelPermalink }}" class="flex items-center space-x-3 rtl:space-x-reverse">
           {{ $logo := resources.Get "imgs/EAI+sign_White_blackBG_RGB.jpg" }}
           <img src="{{ $logo.RelPermalink }}" class="h-12 invert dark:invert-0" alt="{{ site.Title }} Logo" />

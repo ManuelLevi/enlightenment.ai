@@ -6,22 +6,14 @@ theme = 'eai'
 # Main menu configuration
 [menu]
   [[menu.main]]
-    name = "Trusted By"
-    url = "#trustedby"
-    weight = 1
-  [[menu.main]]
-    name = "Insights"
-    url = "#insights"
-    weight = 2
-  [[menu.main]]
     name = "Hire Us"
-    url = "#hire-us"
-    weight = 3
+    url = "https://cal.com/datastrategy"
+    weight = 1
 
 # Links
 [params]
   consultation_link = "https://cal.com/datastrategy"
-
+  upwork_link = "https://www.upwork.com/freelancers/~01e011c914ffcb10f8"
 
 [build]
   [build.buildStats]

@@ -1,0 +1,37 @@
+<section id="trustedby" class="bg-white dark:bg-black">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+      
+      <h1 class="max-w-2xl mb-4 text-3xl font-poppins tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">Trusted Since 2018</h1>
+      <h3 class="text-gray-600 dark:text-gray-400">By governments, funded startups, and billion-dollar companies.</h3>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      {{ range where site.RegularPages "Section" "use-cases" }}
+      <div>
+        <div class="bg-gray-100 dark:bg-white rounded p-2 flex items-center justify-center">
+          <img
+            class="h-12 rounded p-2 mx-auto"
+            src="{{ .Params.logo }}"
+            alt="{{ .Params.company }} logo"
+          />
+        </div>
+        <div class="text-center text-xs text-gray-600 dark:text-gray-400 mt-2">{{ .Params.company }} - {{ .Params.company_type }}</div>
+      </div>
+      {{ end }}
+
+      {{ range where site.RegularPages "Section" "certifications" }}
+      <div>
+        <div class="bg-black rounded p-2 flex items-center justify-center">
+          <img
+            class="h-12 p-2 mx-auto"
+            src="{{ .Params.logo }}"
+            alt="{{ .Params.company }} logo"
+          />
+        </div>
+        <div class="text-center text-xs text-gray-600 dark:text-gray-400 mt-2">Certified by<br>{{ .Params.company }}</div>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</section>
