@@ -1,6 +1,6 @@
 # EnlightenmentAI
 
-A Hugo-powered blog about artificial intelligence and enlightenment.
+Powered by Hugo
 
 ## Development
 
