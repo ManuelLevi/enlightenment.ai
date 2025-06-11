@@ -12,7 +12,7 @@ Portugal's Ministry of Defense has granted Enlightenment.AI exclusive licensing 
 
 ### Portugal's Ministry of Defense has granted Enlightenment.AI exclusive licensing for military goods and technology commerce - authorization reserved for organizations meeting the highest standards of technical capability and national security clearance.
 
-Following comprehensive evaluation by Portugal's National Security Authority, Enlightenment.AI has been formally licensed to develop and deploy AI systems for defense applications. This authorization places us among a select group of technology companies trusted with military-grade artificial intelligence development.
+Following comprehensive evaluation, Enlightenment.AI has been formally licensed to develop and deploy AI systems for defense applications. This authorization places us among a select group of technology companies trusted with military-grade artificial intelligence development.
 
 "When national security depends on AI reliability, governments don't take chances. Defense contractors know that in mission-critical applications, AI systems must perform flawlessly - there is no margin for error. Our systems are built to operate offline, maintain functionality under attack, and continue operating even when components are compromised."
 — Manuel Levi, Founder, Enlightenment.AI

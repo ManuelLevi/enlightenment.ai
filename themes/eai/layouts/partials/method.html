@@ -1,0 +1,20 @@
+<section id="trustedby" class="bg-white dark:bg-black">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">        
+        <h1 class="max-w-2xl mb-4 text-3xl font-poppins tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white">FORCE Methodology</h1>
+        <h3 class="text-gray-600 dark:text-gray-400">A systematic approach to building AI-powered systems.</h3>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        {{ range where site.RegularPages "Section" "force" }}
+        <div>
+          <!--<div class="bg-gray-100 dark:bg-white rounded flex items-center justify-center h-24 bg-cover bg-center bg-no-repeat" style="background-image: url('{{ .Params.logo }}')">
+          </div>-->
+          <div class="text-center text-md text-gray-800 dark:text-gray-200 mt-2">{{ .Params.title}}</div>
+          <div class="text-center font-semibold text-xs text-gray-800 dark:text-gray-200 mt-2">{{ .Params.subtitle}}</div>
+          <div class="text-center text-xs text-gray-600 dark:text-gray-400 mt-2">{{ .Params.description}}</div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  

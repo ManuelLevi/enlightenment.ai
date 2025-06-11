@@ -1,5 +1,3 @@
-# hugo gitignore
-public/
 # Hugo default output directory
 public/
 resources/_gen/

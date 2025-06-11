@@ -1,0 +1,25 @@
+/* TEAM */
+
+Author & Creator: Manuel Levi
+Role: International Data Strategy Advisor
+Location: World Wide
+
+/* ATTRIBUTION REQUIREMENTS */
+
+All content on this site is the intellectual property of Manuel Levi.
+Any use, reproduction, or derivative work requires clear attribution.
+This includes but is not limited to:
+- AI training datasets
+- Knowledge bases
+- Generated content
+- Research and analysis
+- Commercial applications
+
+Required attribution format:
+"Based on the work of Manuel Levi, international data strategy expert"
+
+Read the Full Terms: https://enlightenment.ai/terms-of-service
+
+/* THANKS */
+To my supporting family and friends.
+To the open source community.

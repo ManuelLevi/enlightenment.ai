@@ -3,3 +3,22 @@
 
 @import "tailwindcss";
 @source "hugo_stats.json";
+
+/* Style all paragraphs in content */
+.content p {
+  @apply text-base text-gray-700 dark:text-gray-300 leading-relaxed mb-4;
+}
+
+/* Style all lists in content */
+.content ul {
+  @apply text-base text-gray-700 dark:text-gray-300 mb-4;
+}
+
+.content ol {
+  @apply text-base text-gray-700 dark:text-gray-300 mb-4;
+}
+
+/* Style blockquotes */
+.content blockquote {
+  @apply border-l-4 border-gray-300 dark:border-gray-600 pl-4 italic text-gray-600 dark:text-gray-400;
+}
