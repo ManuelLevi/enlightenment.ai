@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://eai.company/'
 languageCode = 'en-us'
 title = 'EnlightenmentAI'
 theme = 'eai'
